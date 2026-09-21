@@ -1,5 +1,0 @@
--r base.txt
-
-# Herramientas de desarrollo (no se instalan en producción)
-django-extensions>=3.2,<4.0   # shell_plus y utilidades de desarrollo
-ipython>=8.26                  # shell interactivo más cómodo que el estándar

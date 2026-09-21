@@ -1,7 +1,0 @@
--r base.txt
-
-# Infraestructura de despliegue (no son dependencias de negocio, pero son
-# necesarias para servir el proyecto en producción):
-gunicorn>=22.0        # servidor WSGI de producción
-psycopg2-binary>=2.9  # driver de PostgreSQL (base de datos de producción)
-whitenoise>=6.7        # servir estáticos sin depender de Nginx/S3 desde el día 1
