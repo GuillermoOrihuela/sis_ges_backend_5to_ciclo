@@ -157,10 +157,10 @@ SPECTACULAR_SETTINGS = {
     'SERVE_INCLUDE_SCHEMA': False,
 }
 
-CORS_ALLOW_ALL_ORIGINS = False
-CORS_ALLOWED_ORIGINS = [
-    'https://sis-ges-frotend-5to-ciclo.vercel.app',
-]
+CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOWED_ORIGINS = [
+#     'https://sis-ges-frotend-5to-ciclo.vercel.app',
+# ]
 # Necesario para que el navegador mande la cookie/credenciales (o el header
 # Authorization con el JWT) en las peticiones cross-origin desde ese dominio.
 CORS_ALLOW_CREDENTIALS = True
