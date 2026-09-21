@@ -16,13 +16,7 @@ SECRET_KEY = env('SECRET_KEY', default='django-insecure-key-for-dev')
 
 DEBUG = env.bool('DEBUG', default=False)
 
-ALLOWED_HOSTS = [
-    'julio32.pythonanywhere.com',
-    '.pythonanywhere.com',
-    'localhost',
-    '127.0.0.1',
-    '*',
-]
+ALLOWED_HOSTS = ['*']
 
 # Aplicaciones instaladas según Contrato Técnico
 INSTALLED_APPS = [
