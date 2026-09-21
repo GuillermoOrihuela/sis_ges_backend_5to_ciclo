@@ -1,4 +1,4 @@
 from .base import *
 
-DEBUG = False
+DEBUG = True
 # Configurar en producción con variables de entorno estrictas
