@@ -6,6 +6,6 @@ DEBUG = False
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': Path('/home/julio32/sis_ges_backend_5to_ciclo/db.sqlite3'),
     }
 }
